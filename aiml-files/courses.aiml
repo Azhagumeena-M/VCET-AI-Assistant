@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- ========================= -->
+<!-- COURSES -->
+<!-- ========================= -->
+
+<category>
+    <pattern>HOW MANY COURSES DOES COLLEGE OFFERS</pattern>
+    <template>
+        Velammal College of Engineering and Technology (VCET), Madurai offers undergraduate and postgraduate programmes in various engineering disciplines.
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT ARE THE AVAILABLE COURSES OF THE COLLEGE</pattern>
+    <template>
+        VCET offers Computer Science and Engineering (CSE), Information Technology (IT), Electronics and Communication Engineering (ECE), Electrical and Electronics Engineering (EEE), Mechanical Engineering, Civil Engineering, Artificial Intelligence and Data Science (AI & DS), MBA and other AICTE approved programmes.
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT COURSES ARE AVAILABLE</pattern>
+    <template>
+        VCET offers CSE, IT, ECE, EEE, Mechanical Engineering, Civil Engineering, Artificial Intelligence and Data Science (AI & DS), MBA and other approved programmes.
+    </template>
+</category>
+
+<category>
+    <pattern>LIST THE COURSES</pattern>
+    <template>
+        Computer Science and Engineering, Information Technology, Electronics and Communication Engineering, Electrical and Electronics Engineering, Mechanical Engineering, Civil Engineering, Artificial Intelligence and Data Science, MBA and other approved programmes.
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT ARE THE ADDITIONAL COURSES OFFERED BY THE COLLEGE</pattern>
+    <template>
+        VCET provides value-added courses, certification programmes, placement training, aptitude training, coding practice, internships, industrial visits, workshops and seminars.
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT IS THE FEE STRUCTURE</pattern>
+    <template>
+        Please contact the VCET Admission Office or visit the official college website for the latest fee structure.
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT IS THE FEE STRUCTURE OF ATKT EXAMINATION</pattern>
+    <template>
+        Please contact the Examination Cell or College Office for the latest examination fee details.
+    </template>
+</category>
+
+<!-- ========================= -->
+<!-- COORDINATOR -->
+<!-- ========================= -->
+
+<category>
+    <pattern>COORDINATOR OF * DEPARTMENT</pattern>
+    <template>
+        <srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>COORDINATOR OF THE * DEPARTMENT</pattern>
+    <template>
+        <srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* DEPARTMENT COORDINATOR</pattern>
+    <template>
+        <srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* COORDINATOR</pattern>
+    <template>
+        <srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>COORDINATOR OF *</pattern>
+    <template>
+        <srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>COORDINATOR OF THE *</pattern>
+    <template>
+        <srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<!-- ========================= -->
+<!-- HOD -->
+<!-- ========================= -->
+
+<category>
+    <pattern>HOD OF * DEPARTMENT</pattern>
+    <template>
+        <srai>WHO IS THE HOD OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>HOD OF THE * DEPARTMENT</pattern>
+    <template>
+        <srai>WHO IS THE HOD OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* DEPARTMENT HOD</pattern>
+    <template>
+        <srai>WHO IS THE HOD OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* HOD</pattern>
+    <template>
+        <srai>WHO IS THE HOD OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>HOD OF *</pattern>
+    <template>
+        <srai>WHO IS THE HOD OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>HOD OF THE *</pattern>
+    <template>
+        <srai>WHO IS THE HOD OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<!-- ========================= -->
+<!-- COURSE DURATION -->
+<!-- ========================= -->
+
+<category>
+    <pattern>COURSE DURATION OF * DEPARTMENT</pattern>
+    <template>
+        <srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>COURSE DURATION OF THE * DEPARTMENT</pattern>
+    <template>
+        <srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>DURATION OF COURSE IN * DEPARTMENT</pattern>
+    <template>
+        <srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>DURATION OF THE COURSE IN * DEPARTMENT</pattern>
+    <template>
+        <srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>COURSE DURATION IN * DEPARTMENT</pattern>
+    <template>
+        <srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>COURSE DURATION IN THE * DEPARTMENT</pattern>
+    <template>
+        <srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* DEPARTMENT COURSE DURATION</pattern>
+    <template>
+        <srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai>
+    </template>
+</category>
+
+</aiml>

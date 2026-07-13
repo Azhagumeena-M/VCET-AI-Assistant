@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+    <pattern>WHERE IS THE COLLEGE LOCATED</pattern>
+    <template>
+        Velammal College of Engineering and Technology (VCET) is located at Viraganoor, Madurai, Tamil Nadu, India.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS VCET LOCATED</pattern>
+    <template>
+        VCET is located at Viraganoor, Madurai, Tamil Nadu.
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT IS THE ADDRESS OF THE COLLEGE</pattern>
+    <template>
+        Velammal College of Engineering and Technology, Viraganoor, Madurai, Tamil Nadu - 625009.
+    </template>
+</category>
+
+<category>
+    <pattern>HOW CAN I REACH THE COLLEGE</pattern>
+    <template>
+        You can reach VCET by city bus, taxi, auto-rickshaw, or your own vehicle from Madurai city.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE COLLEGE OFFICE</pattern>
+    <template>
+        The Administrative Office is located inside the main academic block. Please contact the reception for assistance.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE PRINCIPAL OFFICE</pattern>
+    <template>
+        The Principal's Office is located in the Administrative Block.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE ADMISSION OFFICE</pattern>
+    <template>
+        The Admission Office is located in the Administrative Block near the main entrance.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE LIBRARY</pattern>
+    <template>
+        The Central Library is located inside the campus. Students can approach the reception for directions.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE CANTEEN</pattern>
+    <template>
+        The college canteen is located within the campus and serves students and staff.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE HOSTEL</pattern>
+    <template>
+        Separate hostel facilities are available for both boys and girls inside the campus.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE EXAM CELL</pattern>
+    <template>
+        The Examination Cell is located in the Administrative Block.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE PLACEMENT CELL</pattern>
+    <template>
+        The Placement and Training Cell is located inside the campus. Students may contact the Placement Officer for details.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE COMPUTER LAB</pattern>
+    <template>
+        The Computer Laboratories are located in the respective department buildings.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE CSE LAB</pattern>
+    <template>
+        The CSE laboratories are located in the Computer Science and Engineering Department.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE IT LAB</pattern>
+    <template>
+        The IT laboratories are located in the Information Technology Department.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE ECE LAB</pattern>
+    <template>
+        The ECE laboratories are located in the Electronics and Communication Engineering Department.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE PARKING</pattern>
+    <template>
+        Parking facilities are available inside the campus for students, staff and visitors.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE AUDITORIUM</pattern>
+    <template>
+        The college auditorium is located inside the campus and is used for seminars, cultural events and placement activities.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE SPORTS GROUND</pattern>
+    <template>
+        The sports ground is located within the college campus.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE BUS STOP</pattern>
+    <template>
+        Bus services are available near the college campus. Please contact the college transport office for route details.
+    </template>
+</category>
+
+<category>
+    <pattern>WHERE IS THE TRANSPORT OFFICE</pattern>
+    <template>
+        The Transport Office is available inside the campus for bus-related enquiries.
+    </template>
+</category>
+
+</aiml>

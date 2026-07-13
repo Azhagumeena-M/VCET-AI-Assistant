@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+    <pattern>HELLO</pattern>
+    <template>
+        Hello! 👋 Welcome to the Velammal College of Engineering and Technology (VCET), Madurai AI Chatbot. How can I assist you today?
+    </template>
+</category>
+
+<category>
+    <pattern>HI</pattern>
+    <template>
+        Hi! Welcome to VCET Madurai. Feel free to ask me about admissions, departments, courses, placements, hostel, library, or college facilities.
+    </template>
+</category>
+
+<category>
+    <pattern>HEY</pattern>
+    <template>
+        Hello! Welcome to VCET Madurai. How may I help you?
+    </template>
+</category>
+
+<category>
+    <pattern>GOOD MORNING</pattern>
+    <template>
+        Good Morning! Welcome to VCET Madurai. Have a great day. How can I help you?
+    </template>
+</category>
+
+<category>
+    <pattern>GOOD AFTERNOON</pattern>
+    <template>
+        Good Afternoon! Welcome to VCET Madurai. What would you like to know?
+    </template>
+</category>
+
+<category>
+    <pattern>GOOD EVENING</pattern>
+    <template>
+        Good Evening! Welcome to VCET Madurai AI Assistant.
+    </template>
+</category>
+
+<category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>
+        I'm doing great! Thank you for asking. How can I assist you regarding Velammal College of Engineering and Technology?
+    </template>
+</category>
+
+<category>
+    <pattern>WHO ARE YOU</pattern>
+    <template>
+        I am the AI Chatbot of Velammal College of Engineering and Technology, Madurai. I can answer questions about admissions, departments, courses, placements, campus facilities, and more.
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>
+        I am the VCET AI Chatbot.
+    </template>
+</category>
+
+<category>
+    <pattern>THANK YOU</pattern>
+    <template>
+        You're welcome! Have a wonderful day.
+    </template>
+</category>
+
+<category>
+    <pattern>BYE</pattern>
+    <template>
+        Goodbye! Thank you for visiting VCET Madurai. Have a great day.
+    </template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <template>
+        Sorry, I couldn't understand your question. Please ask about VCET admissions, departments, courses, placements, hostel, library, transport, or campus facilities.
+    </template>
+</category>
+
+</aiml>

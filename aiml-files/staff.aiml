@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- ========================= -->
+<!-- COLLEGE MANAGEMENT -->
+<!-- ========================= -->
+
+<category>
+    <pattern>WHO IS THE FOUNDER OF COLLEGE</pattern>
+    <template>
+        Velammal College of Engineering and Technology is part of the Velammal Educational Trust.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE CHAIRMAN OF COLLEGE</pattern>
+    <template>
+        Please visit the official VCET website for the latest management details.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE PRINCIPAL OF COLLEGE</pattern>
+    <template>
+        Please visit the official VCET website or contact the Administrative Office for the latest Principal information.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE DIRECTOR OF COLLEGE</pattern>
+    <template>
+        Please contact the college office for the latest Director information.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE DEAN OF COLLEGE</pattern>
+    <template>
+        Please visit the official VCET website for the latest Dean details.
+    </template>
+</category>
+
+<!-- ========================= -->
+<!-- DEPARTMENTS -->
+<!-- ========================= -->
+
+<category>
+    <pattern>WHO IS THE HOD OF CSE DEPARTMENT</pattern>
+    <template>
+        Please contact the Computer Science and Engineering Department or visit the official website for the latest HOD details.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE HOD OF IT DEPARTMENT</pattern>
+    <template>
+        Please contact the Information Technology Department or visit the official website for the latest HOD details.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE HOD OF ECE DEPARTMENT</pattern>
+    <template>
+        Please contact the Electronics and Communication Engineering Department for the latest HOD information.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE HOD OF EEE DEPARTMENT</pattern>
+    <template>
+        Please contact the Electrical and Electronics Engineering Department for the latest HOD information.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE HOD OF MECHANICAL DEPARTMENT</pattern>
+    <template>
+        Please contact the Mechanical Engineering Department for the latest HOD information.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE HOD OF CIVIL DEPARTMENT</pattern>
+    <template>
+        Please contact the Civil Engineering Department for the latest HOD information.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE HOD OF AI AND DS DEPARTMENT</pattern>
+    <template>
+        Please contact the Artificial Intelligence and Data Science Department for the latest HOD information.
+    </template>
+</category>
+
+<!-- ========================= -->
+<!-- FACULTY -->
+<!-- ========================= -->
+
+<category>
+    <pattern>WHO ARE THE FACULTY MEMBERS OF CSE DEPARTMENT</pattern>
+    <template>
+        Please visit the Computer Science and Engineering Department page on the official VCET website for the latest faculty list.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO ARE THE FACULTY MEMBERS OF IT DEPARTMENT</pattern>
+    <template>
+        Please visit the Information Technology Department page on the official VCET website for the latest faculty list.
+    </template>
+</category>
+
+<!-- ========================= -->
+<!-- LIBRARY & PLACEMENT -->
+<!-- ========================= -->
+
+<category>
+    <pattern>WHO IS THE LIBRARIAN</pattern>
+    <template>
+        Please contact the Central Library for the latest librarian details.
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE PLACEMENT OFFICER</pattern>
+    <template>
+        Please contact the Placement and Training Cell for the latest Placement Officer details.
+    </template>
+</category>
+
+<!-- ========================= -->
+<!-- REDIRECTION RULES -->
+<!-- ========================= -->
+
+<category>
+    <pattern>* OF THE COLLEGE</pattern>
+    <template>
+        <srai>WHO IS THE <star/> OF COLLEGE</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* OF COLLEGE</pattern>
+    <template>
+        <srai>WHO IS THE <star/> OF COLLEGE</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>TELL ME WHO IS *</pattern>
+    <template>
+        <srai>WHO IS THE <star/> OF COLLEGE</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>COLLEGE *</pattern>
+    <template>
+        <srai>WHO IS THE <star/> OF COLLEGE</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS *</pattern>
+    <template>
+        <srai>WHO IS THE <star/> OF COLLEGE</srai>
+    </template>
+</category>
+
+</aiml>

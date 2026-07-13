@@ -1,0 +1,316 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- ================= HEADER ================= -->
+
+<div class="header-container">
+
+    <div class="header-content">
+
+        <div class="logo-section">
+
+            <img src="{% static 'images/vcet-logo.jpg' %}" alt="VCET Logo">
+
+            <div class="title-section">
+
+                <h1>🤖 VCET AI Assistant</h1>
+
+                <p>Velammal College of Engineering and Technology, Madurai</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= CHAT ================= -->
+
+<div id="chatbot-container">
+
+    <div id="chatbot-dialogue">
+
+        <!-- Welcome -->
+
+        <div class="message bot-message">
+
+            <div class="message-header">
+
+                
+
+                <span>VCET AI Assistant</span>
+
+            </div>
+
+            <div class="message-content">
+
+                {{ greeting }}, Welcome to VCET AI Assistant 👋
+
+            </div>
+
+        </div>
+
+
+        <!-- Help -->
+
+        <div class="message bot-message">
+
+            <div class="message-header">
+
+               
+
+                <span>VCET AI Assistant</span>
+
+            </div>
+
+            <div class="message-content">
+
+                I can answer questions about:
+
+                <br><br>
+
+                📚 Courses
+
+                <br>🏫 Departments
+
+                <br>👨‍🏫 Faculty
+
+                <br>📖 Library
+
+                <br>🏠 Hostel
+
+                <br>🍴 Canteen
+
+                <br>🚌 Transport
+
+                <br>📍 Campus
+
+                <br><br>
+
+                Ask me anything 😊
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= INPUT ================= -->
+
+    <form id="chatbot-form"
+
+          method="post"
+
+          action="{% url 'bot' %}">
+
+        {% csrf_token %}
+
+        <input
+
+            id="chat-input"
+
+            type="text"
+
+            name="input_text"
+
+            placeholder="Ask anything about VCET..."
+
+            autocomplete="off"
+
+            required>
+
+        <button type="submit">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+
+                 fill="currentColor"
+
+                 viewBox="0 0 16 16">
+
+                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855a.5.5 0 0 0-.082.887l4.995 3.178 3.178 4.995a.5.5 0 0 0 .886-.083l6-15z"/>
+
+            </svg>
+
+        </button>
+
+    </form>
+
+</div>
+
+{% endblock %}
+
+
+{% block js %}
+
+<script>
+
+const form=document.getElementById("chatbot-form");
+
+const dialogue=document.getElementById("chatbot-dialogue");
+
+const input=document.getElementById("chat-input");
+
+
+// Scroll
+
+function scrollBottom(){
+
+    dialogue.scrollTop=dialogue.scrollHeight;
+
+}
+
+scrollBottom();
+
+
+// Enter key
+
+input.addEventListener("keypress",function(e){
+
+    if(e.key==="Enter"){
+
+        e.preventDefault();
+
+        form.requestSubmit();
+
+    }
+
+});
+
+
+
+form.addEventListener("submit",function(e){
+
+    e.preventDefault();
+
+    const formData=new FormData(form);
+
+    const message=formData.get("input_text").trim();
+
+    if(message==="") return;
+
+
+    // User Message
+
+    const userHTML=`
+
+    <div class="message user-message">
+
+        <div class="message-header">
+
+            <span>👤 You</span>
+
+        </div>
+
+        <div class="message-content">
+
+            ${message}
+
+        </div>
+
+    </div>
+
+    `;
+
+    dialogue.insertAdjacentHTML("beforeend",userHTML);
+
+    scrollBottom();
+
+
+    // Typing
+
+    const typingHTML=`
+
+    <div class="message bot-message typing-box" id="typing">
+
+        <div class="message-header">
+
+           
+
+            <span>VCET AI Assistant</span>
+
+        </div>
+
+        <div class="typing">
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+        </div>
+
+    </div>
+
+    `;
+
+    dialogue.insertAdjacentHTML("beforeend",typingHTML);
+
+    scrollBottom();
+
+
+    fetch(form.action,{
+
+        method:"POST",
+
+        body:formData
+
+    })
+
+    .then(res=>res.text())
+
+    .then(data=>{
+
+        document.getElementById("typing").remove();
+
+
+        const botHTML=`
+
+        <div class="message bot-message">
+
+            <div class="message-header">
+
+               
+
+                <span>VCET AI Assistant</span>
+
+            </div>
+
+            <div class="message-content">
+
+                ${data}
+
+            </div>
+
+        </div>
+
+        `;
+
+        dialogue.insertAdjacentHTML("beforeend",botHTML);
+
+        scrollBottom();
+
+        form.reset();
+
+        input.focus();
+
+    })
+
+    .catch(()=>{
+
+        document.getElementById("typing").remove();
+
+        alert("Server Error");
+
+    });
+
+});
+
+</script>
+
+{% endblock %}

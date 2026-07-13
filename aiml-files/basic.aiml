@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- User Name -->
+
+<category>
+    <pattern>MY NAME IS *</pattern>
+    <template>
+        Hello <set name="user"><star/></set>! Welcome to the Velammal College of Engineering and Technology (VCET), Madurai AI Chatbot. How can I help you today?
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT IS MY NAME</pattern>
+    <template>
+        Your name is <get name="user"/>.
+    </template>
+</category>
+
+<!-- College -->
+
+<category>
+    <pattern>WHAT IS VCET</pattern>
+    <template>
+        VCET stands for Velammal College of Engineering and Technology, Madurai. It is an autonomous engineering institution offering undergraduate and postgraduate programmes.
+    </template>
+</category>
+
+<category>
+    <pattern>ABOUT VCET</pattern>
+    <template>
+        Velammal College of Engineering and Technology (VCET), Madurai is a reputed engineering college known for quality education, research, innovation and placement opportunities.
+    </template>
+</category>
+
+<category>
+    <pattern>TELL ME ABOUT VCET</pattern>
+    <template>
+        VCET offers engineering education with experienced faculty, modern laboratories, library facilities, placement training, internships and extracurricular activities.
+    </template>
+</category>
+
+<!-- Admissions -->
+
+<category>
+    <pattern>HOW TO APPLY</pattern>
+    <template>
+        You can apply for admission by contacting the Admission Office or visiting the official VCET website.
+    </template>
+</category>
+
+<category>
+    <pattern>ADMISSION</pattern>
+    <template>
+        Admissions are based on the latest government and college admission procedures. Please contact the Admission Office for complete details.
+    </template>
+</category>
+
+<!-- Placement -->
+
+<category>
+    <pattern>PLACEMENT</pattern>
+    <template>
+        VCET has a dedicated Placement and Training Cell that conducts placement drives, aptitude training, technical training and mock interviews.
+    </template>
+</category>
+
+<!-- Hostel -->
+
+<category>
+    <pattern>HOSTEL</pattern>
+    <template>
+        Separate hostel facilities are available for boys and girls with essential amenities.
+    </template>
+</category>
+
+<!-- Library -->
+
+<category>
+    <pattern>LIBRARY</pattern>
+    <template>
+        VCET has a well-equipped Central Library with books, journals, digital resources and study facilities.
+    </template>
+</category>
+
+<!-- Transport -->
+
+<category>
+    <pattern>TRANSPORT</pattern>
+    <template>
+        College bus facilities are available from various locations in and around Madurai.
+    </template>
+</category>
+
+<!-- Contact -->
+
+<category>
+    <pattern>CONTACT</pattern>
+    <template>
+        Please contact the VCET Administrative Office or visit the official website for contact information.
+    </template>
+</category>
+
+<!-- Thanks -->
+
+<category>
+    <pattern>THANKS</pattern>
+    <template>
+        You're welcome! Have a wonderful day.
+    </template>
+</category>
+
+<category>
+    <pattern>THANK YOU</pattern>
+    <template>
+        You're welcome! Happy to help.
+    </template>
+</category>
+
+<!-- Bye -->
+
+<category>
+    <pattern>BYE</pattern>
+    <template>
+        Thank you for visiting the VCET AI Chatbot. Have a great day!
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT IS MY COLLEGE NAME</pattern>
+    <template>
+        Your college is Velammal College of Engineering and Technology (VCET), Madurai.
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT IS THE COLLEGE NAME</pattern>
+    <template>
+        The college name is Velammal College of Engineering and Technology (VCET), Madurai.
+    </template>
+</category>
+
+<category>
+    <pattern>COLLEGE NAME</pattern>
+    <template>
+        Velammal College of Engineering and Technology (VCET), Madurai.
+    </template>
+</category>
+
+<category>
+    <pattern>VCET</pattern>
+    <template>
+        VCET stands for Velammal College of Engineering and Technology, Madurai.
+    </template>
+</category>
+
+</aiml>
