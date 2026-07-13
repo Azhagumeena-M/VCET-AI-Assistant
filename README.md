@@ -22,4 +22,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 ### Contact
 
-If you have any questions or feedback about this project, feel free to contact the developer at `mohammedvaraliya2661392@gmail.com`. We welcome any suggestions for new questions or topics that you feel should be included in the chatbot. Please email us at `mohammedvaraliya2661392@gmail.com` with your suggestions and we will be happy to consider them for future updates to the chatbot.
+If you have any questions or feedback about this project, feel free to contact the developer at `azhagumeenams12@gmail.com`. We welcome any suggestions for new questions or topics that you feel should be included in the chatbot. Please email us at `azhagumeenams14@gmail.com` with your suggestions and we will be happy to consider them for future updates to the chatbot.
