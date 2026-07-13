@@ -18,12 +18,6 @@ The chatbot's AIML logic has been programmed to handle a wide range of questions
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
 
-### Overview
-
-This project has been deployed on a platform, and you can access the application by visiting the following link: http://mohammedvaraliya.pythonanywhere.com/.
-
-
-https://user-images.githubusercontent.com/95087498/231542242-8c9f197d-66b9-4c03-b6f2-9efb2e8ec9f8.mp4
 
 
 ### Contact
